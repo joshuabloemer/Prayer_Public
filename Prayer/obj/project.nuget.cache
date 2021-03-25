@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "uAdisTiqcOw2o4I4qhkYMF/RtkejTBh+ccEsOHAGxCHY2W4B+eGqXeg0gDH/FqvBYoCitJ6wOnzoau5MpSAitw==",
+  "success": true,
+  "projectFilePath": "G:\\Facharbeit final build\\Prayer\\prayer\\Prayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Joshua\\.nuget\\packages\\pegasus\\4.1.0\\pegasus.4.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

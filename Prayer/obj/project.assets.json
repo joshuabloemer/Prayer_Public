@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Pegasus/4.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Pegasus.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Pegasus.Common.dll": {}
+        },
+        "build": {
+          "build/Pegasus.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pegasus/4.1.0": {
+      "sha512": "i7qGKD6i5BEvP7Al2K8T/UzBp2bZABjgItPjRn7OjgQTcgFAb9X3wrxcJV06X5p1FEFDoy4FxnoUmneDgnXTww==",
+      "type": "package",
+      "path": "pegasus/4.1.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Pegasus.targets",
+        "build/net45/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/net45/Microsoft.CodeAnalysis.dll",
+        "build/net45/Pegasus.Common.dll",
+        "build/net45/Pegasus.Common.pdb",
+        "build/net45/Pegasus.Common.xml",
+        "build/net45/Pegasus.exe",
+        "build/net45/Pegasus.exe.config",
+        "build/net45/Pegasus.pdb",
+        "build/net45/Pegasus.xml",
+        "build/net45/System.Collections.Immutable.dll",
+        "build/net45/System.Reflection.Metadata.dll",
+        "build/netcoreapp2.0/Microsoft.Build.Framework.dll",
+        "build/netcoreapp2.0/Microsoft.Build.Utilities.Core.dll",
+        "build/netcoreapp2.0/Microsoft.CodeAnalysis.CSharp.dll",
+        "build/netcoreapp2.0/Microsoft.CodeAnalysis.dll",
+        "build/netcoreapp2.0/Pegasus.Common.dll",
+        "build/netcoreapp2.0/Pegasus.Common.pdb",
+        "build/netcoreapp2.0/Pegasus.Common.xml",
+        "build/netcoreapp2.0/Pegasus.deps.json",
+        "build/netcoreapp2.0/Pegasus.dll",
+        "build/netcoreapp2.0/Pegasus.dll.config",
+        "build/netcoreapp2.0/Pegasus.pdb",
+        "build/netcoreapp2.0/Pegasus.runtimeconfig.dev.json",
+        "build/netcoreapp2.0/Pegasus.runtimeconfig.json",
+        "build/netcoreapp2.0/Pegasus.xml",
+        "build/netcoreapp2.0/System.CodeDom.dll",
+        "lib/net35/Pegasus.Common.dll",
+        "lib/net35/Pegasus.Common.pdb",
+        "lib/net35/Pegasus.Common.xml",
+        "lib/net40/Pegasus.Common.dll",
+        "lib/net40/Pegasus.Common.pdb",
+        "lib/net40/Pegasus.Common.xml",
+        "lib/net45/Pegasus.Common.dll",
+        "lib/net45/Pegasus.Common.pdb",
+        "lib/net45/Pegasus.Common.xml",
+        "lib/netstandard1.0/Pegasus.Common.deps.json",
+        "lib/netstandard1.0/Pegasus.Common.dll",
+        "lib/netstandard1.0/Pegasus.Common.pdb",
+        "lib/netstandard1.0/Pegasus.Common.xml",
+        "lib/netstandard2.0/Pegasus.Common.deps.json",
+        "lib/netstandard2.0/Pegasus.Common.dll",
+        "lib/netstandard2.0/Pegasus.Common.pdb",
+        "lib/netstandard2.0/Pegasus.Common.xml",
+        "pegasus.4.1.0.nupkg.sha512",
+        "pegasus.nuspec",
+        "readme.txt",
+        "tools/workbench/ICSharpCode.TextEditor.dll",
+        "tools/workbench/Microsoft.CodeAnalysis.CSharp.dll",
+        "tools/workbench/Microsoft.CodeAnalysis.dll",
+        "tools/workbench/Newtonsoft.Json.dll",
+        "tools/workbench/Newtonsoft.Json.xml",
+        "tools/workbench/Pegasus.Common.dll",
+        "tools/workbench/Pegasus.Common.pdb",
+        "tools/workbench/Pegasus.Common.xml",
+        "tools/workbench/Pegasus.Workbench.exe",
+        "tools/workbench/Pegasus.Workbench.exe.CodeAnalysisLog.xml",
+        "tools/workbench/Pegasus.Workbench.exe.config",
+        "tools/workbench/Pegasus.Workbench.exe.lastcodeanalysissucceeded",
+        "tools/workbench/Pegasus.Workbench.pdb",
+        "tools/workbench/Pegasus.exe",
+        "tools/workbench/Pegasus.exe.config",
+        "tools/workbench/Pegasus.pdb",
+        "tools/workbench/Pegasus.xml",
+        "tools/workbench/ReactiveUI.Blend.dll",
+        "tools/workbench/ReactiveUI.Blend.xml",
+        "tools/workbench/ReactiveUI.dll",
+        "tools/workbench/ReactiveUI.xml",
+        "tools/workbench/Splat.dll",
+        "tools/workbench/Splat.pdb",
+        "tools/workbench/System.Collections.Immutable.dll",
+        "tools/workbench/System.Reactive.Core.dll",
+        "tools/workbench/System.Reactive.Core.xml",
+        "tools/workbench/System.Reactive.Interfaces.dll",
+        "tools/workbench/System.Reactive.Interfaces.xml",
+        "tools/workbench/System.Reactive.Linq.dll",
+        "tools/workbench/System.Reactive.Linq.xml",
+        "tools/workbench/System.Reactive.PlatformServices.dll",
+        "tools/workbench/System.Reactive.PlatformServices.xml",
+        "tools/workbench/System.Reactive.Windows.Threading.dll",
+        "tools/workbench/System.Reactive.Windows.Threading.xml",
+        "tools/workbench/System.Reflection.Metadata.dll",
+        "tools/workbench/System.Windows.Interactivity.dll",
+        "tools/workbench/de/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/en/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/es/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/fr/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/it/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/ja/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/ko/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/ru/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/zh-Hans/System.Windows.Interactivity.resources.dll",
+        "tools/workbench/zh-Hant/System.Windows.Interactivity.resources.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Pegasus >= 4.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Joshua\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Facharbeit final build\\Prayer\\prayer\\Prayer.csproj",
+      "projectName": "Prayer",
+      "projectPath": "G:\\Facharbeit final build\\Prayer\\prayer\\Prayer.csproj",
+      "packagesPath": "C:\\Users\\Joshua\\.nuget\\packages\\",
+      "outputPath": "G:\\Facharbeit final build\\Prayer\\prayer\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Joshua\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "Pegasus": {
+            "target": "Package",
+            "version": "[4.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

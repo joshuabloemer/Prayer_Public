@@ -1,0 +1,60 @@
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer.deps.json
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer.runtimeconfig.json
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer.runtimeconfig.dev.json
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer.dll
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Prayer.pdb
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/bin/Debug/netcoreapp3.1/Pegasus.Common.dll
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.csprojAssemblyReference.cache
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.AssemblyInfoInputs.cache
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.AssemblyInfo.cs
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.csproj.CoreCompileInputs.cache
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.csproj.CopyComplete
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.dll
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.pdb
+/home/joshua/Documents/Schule/11/Info/Facharbeit/prayer/Prayer/Prayer/obj/Debug/netcoreapp3.1/Prayer.genruntimeconfig.cache
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.exe
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.deps.json
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.json
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.dev.json
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.dll
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Prayer.pdb
+E:\prayer\Prayer\Prayer\bin\Debug\netcoreapp3.1\Pegasus.Common.dll
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.csprojAssemblyReference.cache
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfoInputs.cache
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfo.cs
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CoreCompileInputs.cache
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CopyComplete
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.dll
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.pdb
+E:\prayer\Prayer\Prayer\obj\Debug\netcoreapp3.1\Prayer.genruntimeconfig.cache
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.exe
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.deps.json
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.json
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.dev.json
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.dll
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.pdb
+G:\prayer\Prayer\prayer\bin\Debug\netcoreapp3.1\Pegasus.Common.dll
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csprojAssemblyReference.cache
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfoInputs.cache
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfo.cs
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CoreCompileInputs.cache
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CopyComplete
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.dll
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.pdb
+G:\prayer\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.genruntimeconfig.cache
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.exe
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.deps.json
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.json
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.runtimeconfig.dev.json
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.dll
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Prayer.pdb
+G:\Facharbeit final build\Prayer\prayer\bin\Debug\netcoreapp3.1\Pegasus.Common.dll
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csprojAssemblyReference.cache
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfoInputs.cache
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.AssemblyInfo.cs
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CoreCompileInputs.cache
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.csproj.CopyComplete
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.dll
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.pdb
+G:\Facharbeit final build\Prayer\prayer\obj\Debug\netcoreapp3.1\Prayer.genruntimeconfig.cache

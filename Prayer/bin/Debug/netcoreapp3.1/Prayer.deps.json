@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Prayer/1.0.0": {
+        "dependencies": {
+          "Pegasus": "4.1.0"
+        },
+        "runtime": {
+          "Prayer.dll": {}
+        }
+      },
+      "Pegasus/4.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Pegasus.Common.dll": {
+            "assemblyVersion": "4.1.0.0",
+            "fileVersion": "4.1.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pegasus/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i7qGKD6i5BEvP7Al2K8T/UzBp2bZABjgItPjRn7OjgQTcgFAb9X3wrxcJV06X5p1FEFDoy4FxnoUmneDgnXTww==",
+      "path": "pegasus/4.1.0",
+      "hashPath": "pegasus.4.1.0.nupkg.sha512"
+    }
+  }
+}

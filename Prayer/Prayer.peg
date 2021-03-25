@@ -1,0 +1,126 @@
+@ignorecase true
+// Prayer.peg : parsing expression grammar for Prayer
+
+
+program<ProgramNode> = "In the beginning God created" _ f:(''[U+0000-ÿ .]+) EOL body:block 
+    {new ProgramNode(f,body)}
+
+block<BlockNode>
+    = head:statement EOL tail:block { new BlockNode(head).Concat(tail)}
+    / line:statement { new BlockNode(line) }
+
+
+// Variables
+    variable<VariableNode> = name:(!keyword [A-Za-z]+ (' ' (!keyword [A-Za-z]+))*) {new VariableNode (name)}
+
+    initialize_variable<SyntaxNode> = optional_and 'God said, Let there be' _ v:variable {new InitializeNode(v)}
+
+    assign<SyntaxNode> 
+        = optional_and v:variable _ 'shall be' _ e:expression { new AssignNode(v,e)}
+        / optional_and 'God spake unto' _ v:variable _? (':' _)? e:expression { new AssignNode(v,e)}
+        / optional_and 'God spoke to' _ v:variable _? (':' _)? e:expression { new AssignNode(v,e)}
+        / e:expression _ 'and giveth to' _ v:variable { new AssignNode(v,e)}
+        / s:subtraction _ 'and giveth the rest to' _ v:variable { new AssignNode(v,s)}
+
+    lookup<SyntaxNode> = v:variable { new LookupNode(v)}
+
+
+// Data Types
+    number<SyntaxNode> 
+        = ('the value of'/'the worth of') _ n:(!keyword [A-Za-z]+(' ' (!keyword [A-Za-z]+))*) {new NumberNode(n)}
+
+    string<SyntaxNode> 
+        = ('the holy word'/'the holy text') 's'? ':' _ s:("" chars+) {new StringNode(s) }
+       // / 'the holy text' 's'? ':' _ s:("" chars+) {new StringNode(s) }
+
+    boolean<SyntaxNode> = b:('Thou shalt not'/'Thou shalt') _ [A-Za-z ]+ {new BooleanNode(b)}
+
+
+// Conditions
+    if_statement<SyntaxNode> = optional_and 'when' _ i:(comparison/lookup) EOL truebody:block EOL
+            {new IfStatementNode(i,truebody)}
+
+    if_else_statement<SyntaxNode> = optional_and 'When' _ i:(comparison/lookup) EOL truebody:block EOL 'Otherwise' EOL falsebody:block EOL
+            {new IfElseStatementNode(i,truebody,falsebody)}
+
+
+// Loops
+    until_loop<SyntaxNode> = optional_and 'Until' _ i:(comparison/lookup) EOL body:block EOL
+            {new UntilNode(i,body)}
+
+
+// Output
+
+    output<OutputNode> = 'Speak the name of the Lord'{ new OutputNode() }
+
+
+// Boolean Operators
+    comparison<SyntaxNode>
+        = l:(lookup/number) _ optional_is'blessed by' _ r:(number/lookup) {new EqualsNode(l,r)}
+        / l:(lookup/number) _ optional_is'cursed by' _ r:(number/lookup) {new NotEqualsNode(l,r)}
+        / l:(lookup/number) _ optional_is'holier than' _ r:(number/lookup) {new GreaterThanNode(l,r)}
+        / l:(lookup/number) _ optional_is'unholier than' _ r:(number/lookup) {new LessThanNode(l,r)}
+        / l:(lookup/number) _ optional_is'as holy as' _ r:(number/lookup) {new GreaterOrEqualNode(l,r)}
+        / l:(lookup/number) _ optional_is'as unholy as' _ r:(number/lookup) {new LessOrEqualNode(l,r)}
+        / 'the opposite of' _ l:(lookup/number) { new NotNode(l)}
+
+statement
+    = initialize_variable
+    / assign
+    / output
+    / if_else_statement
+    / if_statement
+    / until_loop
+    / arithmetic
+
+
+keyword 
+    = 'shall be'
+    / 'Otherwise'
+    / 'the holy word'('s')?':'
+    / 'the holy text' ('s')?':'
+    / 'Thou shalt'
+    / 'Thou shalt not'
+    / 'and'
+    / 'Take ye the sum of'
+    / 'the holy word'('s')?':'
+    / 'the holy text'('s')?':'
+    / 'into'
+    / 'by'
+    / 'from'
+    / 'divide'
+    / 'blessed by'
+    / 'cursed by'
+    / 'holier than'
+    / 'as holy as'
+    / 'as unholy as'
+    / 'is'
+    / 'the worth of'
+    / 'the opposite of'
+
+expression<SyntaxNode>
+    = number
+    / lookup
+    / boolean
+    / string
+    / arithmetic
+    / comparison
+
+arithmetic<SyntaxNode>
+    = addition
+    / 'bless' _ l:variable { new IncrementNode(l)}
+    / subtraction
+    / 'curse' _ l:variable { new DecrementNode(l)}
+    / division
+    / multiplication
+
+addition<SyntaxNode> = 'Take ye the sum of' _ l:(number/lookup) _ 'and' _ r:(number/lookup) { new AdditionNode(l,r)}
+subtraction<SyntaxNode> = optional_and 'God taketh away' _ a:(number/lookup) _ 'from' _ b:(number/lookup) { new SubtractionNode(b,a)}
+division<SyntaxNode> = 'divide' _ l:(number/lookup) _ ('into'/'by')_('its')? _ r:(number/lookup) {new DivisionNode(l,r)}
+multiplication<SyntaxNode> = 'multiply' _ l:(number/lookup) _ 'and' _ r:(number/lookup) {new DivisionNode(l,r)}
+
+optional_is = ('Is' _)?
+optional_and = ('And' _)?
+chars = [a-zA-Z 0-9]
+_ = [\t ]+
+EOL = '\n' / '\r\n'
